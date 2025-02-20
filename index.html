@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Leonardo De Carvalho - Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+    <header>
+    <div class="container">
+      <div class="card">
+        <h1 class="neon-text">Bem-vindo ao seu Futuro!</h1>
+        <p>Soluções tecnologicas</p>
+        <a href="#projects"><button class="button" > <img src="/LEO/PROGRAMAÇÃO/IDEIAS/PROJETOS/portfolio/img/coelho.PNG" width="50" alt="Go!"/> </button></a>  
+         </div>
+    </div>
+    
+  </header>
+
+  <section id="sobre" class="js-section active">
+    <div class="container">
+      <div class="banner">
+        <div class="intro">
+          <div class="title">
+            <h1>Olá, sou </h1>
+            <span>Leonardo de Carvalho</span>
+            <p>Desenvolvedor em Desenvolvimento</p>
+          </div>
+          <div class="actions">
+            <a href="assents/CV- Leonardo Guedes de Carvalho.pdf" download class="action-button">
+            <i class="fas fa-download"></i> Download CV PT   </a>
+            <a href="assents/CV- ENG Leonardo Guedes de Carvalho.pdf" download class="action-button">
+            <i class="fas fa-download"></i> Download CV ENG   </a>
+            <a href="assents/CV- SPN Leonardo Guedes de Carvalho.pdf" download class="action-button">
+            <i class="fas fa-download"></i> Download CV SPN   </a> 
+            <a href="mailto:dev.leocarvalho@gmail.com" target="_blank" class="action-button">
+             <i class="fas fa-envelope"></i> Entrar em contato
+            </a>
+          </div>
+        </div>
+        <div class="profile">
+          <a href="https://github.com/devleocarvalho" target="_blank">
+            <img src="assents/perfil.JPG" alt="Avatar do Leonardo" />
+          </a>
+        </div>
+      </div>
+      <div class="about">
+        <h2>Sobre mim</h2>
+        <p>
+          Sou estudante de Análise e Desenvolvimento de Sistemas e estou construindo minha carreira na área de tecnologia, com foco em Full Stack. Atualmente, me preparo para a Carreira Tech & Full Stack e busco constantemente ampliar meus conhecimentos através de cursos renomados, como os ministrados pelo Prof. Gustavo Guanabara e pelo DevMedia.
+          Possuo certificações em Lógica de Programação, HTML5, CSS e JavaScript. Continuo me aprofundando em novas tecnologias e boas práticas de desenvolvimento. Estou sempre em busca de desafios que me permitam evoluir como profissional, aplicando o que aprendi e contribuindo para projetos inovadores.
+          Minha trajetória é marcada pela paixão por aprender, pela prática constante e pelo desejo de construir soluções eficientes e de qualidade. Estou animado com as oportunidades que o mercado de tecnologia oferece e pronto para contribuir com projetos que façam a diferença.</p>
+      </div>
+    </div>
+  </section>
+
+ <section id="skills" class="js-section active">
+    <div class="skills">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <div class="cards">
+            <div class="box" key="0">
+            <p>HTML5</p>
+            <img src="./assents/HTML5.png" alt="HTML5" />
+          </div>
+          <div class="box" key="1">
+            <p>CSS3</p>
+            <img src="./assents/css.png" alt="CSS3" />
+          </div>
+          <div class="box" key="2">
+            <p>JAVASCRIPT</p>
+            <img src="./assents/java.PNG" alt="JavaScript" />
+          </div>
+          <div class="box" key="4">
+            <p># LÓGICA DA PROGRAMAÇÃO </p>
+            <img src="./assents/PROGRA.png" alt="logica de Programação" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="js-section active">
+    <div class="container">
+      <h2>Projetos e Ideias</h2>
+      <div class="highlights">
+        <h3>Destaques</h3>
+        <div class="cards-projects">
+            <div class="box" id="1">
+            <div class="cover">
+              <p> Mundo Virtual </p>
+              
+              <a class="topo-link" href="./coelho/coelho.html">  <img src="./img/tunelcoelho.jpg" alt="" /> </a>
+                            
+            </div>
+            <div class="description">
+              <p>18 de Fevereiro de 2024</p>
+              <a href="https://github.com/devleocarvalho/" target="_blank" class="project-link">
+              Ver mais
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="allprojects">
+        <h3>Todos os projetos</h3>
+        <div class="cards-projects">
+           <div class="box" id="2">
+            <div class="cover">
+              <p>Caresystem</p>
+              
+              <a class="topo-link" href="/LEO/PROGRAMAÇÃO/IDEIAS/PROJETOS/portfolio/caresystem/caresystem.html">  <img src="/LEO/PROGRAMAÇÃO/IDEIAS/PROJETOS/portfolio/caresystem/s.jpg" alt="caresystem" /> </a>
+            </div>
+            <p>18 de Fevereiro de 2024</p>
+              <a href="https://github.com/devleocarvalho/" target="_blank" class="project-link">
+              ver mais
+              </a>
+          </div>
+         </div>
+      </div>
+      <div class="modal hidden" id="projectModal">
+        <div class="top">
+          <div class="video">
+            <iframe src="" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h2 id="modalTitle"></h2>
+              <i class="fas fa-times close-modal"></i>
+            </div>
+            <p id="modalDescription"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="contacts" class="js-section">
+    <div class="contacts">
+      <div class="container">
+        <h2>Contatos</h2>
+        <div class="icons">
+          <div class="icon">
+            <a href="mailto:dev.leocarvalho@gmail.com" target="_blank">
+              <div class="box"> <img src="img/email.jpg" alt="E-mail" /> </div>
+            </a>
+            <a href="mailto:dev.leocarvalho@gmail.com" target="_blank"><p>E-mail</p></a>
+            <a href="mailto:dev.leocarvalho@gmail.com" target="_blank"><p>dev.leocarvalho@gmail.com</p></a>
+          </div>
+          <div class="icon">
+            <a href="https://api.whatsapp.com/send?phone=5571991338859" target="_blank">
+              <div class="box"> <img src="img/cel.jpeg" alt="Telefone" /> </div>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5571991338859" target="_blank"><p>Telefone</p></a>
+            <a href="https://api.whatsapp.com/send?phone=5571991338859" target="_blank"><p>(71) 991338859</p></a>
+          </div>
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/devleocarvalho/" target="_blank">
+              <div class="box"> <img src="img/lk.JPG" alt="Linkedin" /> </div>
+            </a>
+            <a href="https://www.linkedin.com/in/devleocarvalho/" target="_blank"><p>Linkedin</p></a>
+            <a href="https://www.linkedin.com/in/devleocarvalho/" target="_blank"><p>@devleocarvalho</p></a>
+          </div>
+          <div class="icon">
+            <a href="https://github.com/devleocarvalho" target="_blank">
+              <div class="box"> <img src="img/github.png" alt="Github" /> </div>
+            </a>
+            <a href="https://github.com/devleocarvalho" target="_blank"><p>Github</p></a>
+            <a href="https://github.com/devleocarvalho" target="_blank"><p>@devleocarvalho</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ </body>
+
+<footer>
+<p>&copy;  Todos os direitos reservados</p>
+<p>Desenvolvido por <span> DevLeoCarvalho</span></p>
+   <div class="spotify-player">
+    <iframe src="https://open.spotify.com/embed/playlist/0POsey0dCg5sk1MDouBYKl" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+
+
+</footer>
+
+
+</html>

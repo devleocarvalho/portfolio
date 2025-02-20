@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilusão de Ótica - Túnel 3D</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            overflow: hidden;
+            perspective: 1000px;
+        }
+        .tunnel {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-style: preserve-3d;
+        }
+        .circle {
+            position: absolute;
+            border: 2px solid white;
+            border-radius: 50%;
+            transform-origin: center;
+            animation: zoom 3s infinite linear;
+        }
+        @keyframes zoom {
+            from {
+                width: 10px;
+                height: 10px;
+                opacity: 1;
+                transform: translateZ(0px);
+            }
+            to {
+                width: 600px;
+                height: 600px;
+                opacity: 0;
+                transform: translateZ(-500px);
+            }
+        }
+        .grid {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 10%, transparent 50%);
+            z-index: -1;
+            animation: grid-zoom 3s infinite linear;
+        }
+        @keyframes grid-zoom {
+            from {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            to {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tunnel">
+        <div class="grid"></div>
+        <script>
+            const tunnel = document.querySelector('.tunnel');
+            for (let i = 0; i < 15; i++) {
+                let circle = document.createElement('div');
+                circle.classList.add('circle');
+                circle.style.animationDelay = `${i * 0.2}s`;
+                tunnel.appendChild(circle);
+            }
+        </script>
+    </div>
+</body>
+</html>

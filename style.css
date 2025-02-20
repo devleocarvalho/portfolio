@@ -1,0 +1,302 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+    }
+
+    body {
+      font-family: monospace;
+      background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+      color: #ffffff;
+      line-height: 1.6;
+      
+     
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 20px;
+      
+    }
+
+    header {
+      padding: 40px 0;
+    
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: center;
+      margin-bottom: 40px;
+      background-image: url("/LEO/PROGRAMAÇÃO/IDEIAS/PROJETOS/portfolio/img/e.gif");
+      background-size: cover;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    }
+
+    .neon-text {
+      font-size: 2rem;
+      color: #fff;
+      text-shadow: 0 0 5px #00e6ff, 0 0 10px #00e6ff, 0 0 20px #00e6ff,
+        0 0 40px #0072ff, 0 0 80px #0072ff;
+      margin-bottom: 20px;
+    }
+
+    .futuristic-image {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 20px 0;
+      transition: transform 0.3s;
+    }
+
+    .futuristic-image:hover {
+      transform: scale(1.05);
+    }
+     
+    
+    
+    .button {
+      background: linear-gradient(45deg, #00c6ff, #0072ff);
+      border: none;
+      border-radius: 50px;
+      padding: 15px 30px;
+      color: #fcfcfa;
+      font-size: 30px;
+      cursor: pointer;
+      transition:  transform 0.3s;
+      margin-top: 20px;
+    }
+
+    .button:hover {
+      background: linear-gradient(45deg, #0072ff, #00c6ff);
+      transform: scale(1.05);
+    }
+
+    
+    header .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      
+    }
+
+    header .menu i {
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+
+    header a h2 {
+      font-size: 1.8rem;
+      color: #fff;
+      text-decoration: none;
+      
+    }
+      /* Seções do Portfólio */
+    section {
+      padding: 60px 0;
+      
+      
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+      
+    }
+    .banner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+      
+    }
+    .intro {
+      flex: 1;
+      min-width: 250px;
+    }
+    .intro .title h1 {
+      font-size: 2rem;
+    }
+    .intro .title span {
+       display:contents;
+      margin: 10px 0;
+      font-size: 2rem;
+      color: #fff;
+      text-shadow: 0 0 5px #00e6ff, 0 0 10px #00e6ff, 0 0 20px #00e6ff,
+        0 0 40px #0072ff, 0 0 80px #0072ff;
+    }
+    .intro .actions a {
+      display: ruby-text;
+      margin-right: 10px;
+      padding: 12px 25px;
+      border: 2px solid #a600ff;
+      border-radius: 40px;
+      text-decoration: none;
+      color: #fff;
+    }
+    .intro .actions a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .profile {
+      flex: 0 0 200px;
+      text-align: center;
+    }
+
+    .profile a img {
+      width: 100%;
+      border-radius: 100%;
+      max-width: 100px;
+      position: relative;
+            
+    }
+    .about {
+      margin-top: 20px;
+    }
+    .about p {
+      text-align: justify;
+    }
+    .skills .cards,
+    .highlights .cards-projects,
+    .allprojects .cards-projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .skills .box,
+    .highlights .box,
+    .allprojects .box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      width: 120px;
+      transition: transform 0.3s;
+    }
+    .skills .box:hover,
+    .highlights .box:hover,
+    .allprojects .box:hover {
+      transform: translateY(-5px);
+    }
+    .skills .box img,
+    .highlights .box img,
+    .allprojects .box img {
+      width: 50px;
+      margin-bottom: 10px;
+    }
+    .cards-projects .box .cover {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .cards-projects .box .cover img {
+      width: 100%;
+      display: block;
+      transition: transform 0.3s;
+    }
+
+    .cards-projects .box .cover:hover img {
+      transform: scale(1.05);
+    }
+
+    .cards-projects .box .cover .details {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .cards-projects .box .cover .details p {
+      font-weight: bold;
+    }
+
+    .cards-projects .box .cover .details .mini-languages img {
+      width: 20px;
+      margin-right: 5px;
+    }
+
+    .cards-projects .box .description {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cards-projects .box .description a {
+      text-decoration: none;
+      color: #00e6ff;
+      transition: color 0.3s;
+    }
+
+    .cards-projects .box .description a:hover {
+      color: #0072ff;
+    }
+
+    .contacts .icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .contacts .icon {
+      text-align: center;
+    }
+
+    .contacts .icon .box {
+      width: 60px;
+      height: 60px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 10px;
+      transition: transform 0.3s;
+    }
+
+    .contacts .icon .box img {
+      width: 30px;
+    }
+
+    .contacts .icon:hover .box {
+      transform: scale(1.1);
+    }
+
+    .contacts .icon a {
+      text-decoration: none;
+      color: #fff;
+      display: block;
+    }
+
+    footer p, span{
+      width: 400px;
+      max-width: 400px;
+      margin: auto;
+      text-align: center;
+     font-size: 1.2rem;
+
+    }
+    .spotify-player {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }  
