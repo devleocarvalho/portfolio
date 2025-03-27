@@ -1,4 +1,4 @@
-# 👨‍💻 Portfólio Pessoal - [Seu Nome]  
+# 👨‍💻 Portfólio Pessoal - Dev Leo Carvalho
 
 🔹 **Portfólio profissional** criado para exibir projetos, habilidades e trajetória acadêmica em **Análise e Desenvolvimento de Sistemas**.  
 
@@ -18,7 +18,6 @@
 
 ## ⚙️ Como Executar Localmente  
 1. Clone o repositório:  
-```bash  
 [git clone https://github.com/seu-usuario/portfolio-dev.git  
 cd portfolio-dev](https://github.com/devleocarvalho/portfolio/tree/main)
 
