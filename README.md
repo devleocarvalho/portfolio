@@ -22,6 +22,7 @@
 cd portfolio-dev](https://github.com/devleocarvalho/portfolio/tree/main)
 
 ## 🎯 Objetivos  
-- Me especializar em Front-end com Reacst.  
-- Contribuir para projetos open-source.  
+- primeiro emprego, estágio. 
+- Me especializar mais 
+- Contribuir para projetos open-source e mais. 
 
